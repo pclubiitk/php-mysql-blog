@@ -1,5 +1,9 @@
+<?php session_start() ?>
 <html>
-
+<?php
+	if( !isset($_SESSION['loggedIn']) ||  $_SESSION['loggedIn'] == 0){
+	header( 'Location: login.html' ) ;
+} ?>
 <head>
 <title>Poster</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
