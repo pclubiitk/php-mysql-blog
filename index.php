@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Poster</title>
+<title>My Network</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
